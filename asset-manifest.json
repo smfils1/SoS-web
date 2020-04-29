@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SoS-web/static/css/main.9ebc0615.chunk.css",
+    "main.css": "/SoS-web/static/css/main.e3c52904.chunk.css",
     "main.js": "/SoS-web/static/js/main.5987cee2.chunk.js",
     "main.js.map": "/SoS-web/static/js/main.5987cee2.chunk.js.map",
     "runtime~main.js": "/SoS-web/static/js/runtime~main.8ddf747c.js",
@@ -8,9 +8,9 @@
     "static/js/2.f81a7268.chunk.js": "/SoS-web/static/js/2.f81a7268.chunk.js",
     "static/js/2.f81a7268.chunk.js.map": "/SoS-web/static/js/2.f81a7268.chunk.js.map",
     "index.html": "/SoS-web/index.html",
-    "precache-manifest.95be13696a6d369370e5c3d55e95af20.js": "/SoS-web/precache-manifest.95be13696a6d369370e5c3d55e95af20.js",
+    "precache-manifest.f7d9b37d6d547091a88b9cd5b0aaf4ec.js": "/SoS-web/precache-manifest.f7d9b37d6d547091a88b9cd5b0aaf4ec.js",
     "service-worker.js": "/SoS-web/service-worker.js",
-    "static/css/main.9ebc0615.chunk.css.map": "/SoS-web/static/css/main.9ebc0615.chunk.css.map",
+    "static/css/main.e3c52904.chunk.css.map": "/SoS-web/static/css/main.e3c52904.chunk.css.map",
     "static/media/hero_image.jpg": "/SoS-web/static/media/hero_image.ac531091.jpg"
   }
 }

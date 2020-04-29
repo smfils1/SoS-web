@@ -5,14 +5,13 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { Link } from "react-router-dom";
-import { LinkContainer } from "react-router-bootstrap";
 
 import logo from "../assets/images/logo_transparent.png";
 
 const NavBar = () => (
   <Navbar variant="dark" bg="dark" expand="md" style={{ fontWeight: "300" }}>
     <Navbar.Brand>
-      <Link to="/" className="nav-link text-white ">
+      <Link to="/" className="nav-link p-0 text-white ">
         <Container>
           <img alt="" src={logo} style={{ width: "4em" }} />{" "}
           <div

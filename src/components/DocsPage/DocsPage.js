@@ -1,7 +1,23 @@
 import React from "react";
+import Markdown from "markdown-to-jsx";
+import docs from "../../assets/unity/README.md";
+import "./DocsPage.css";
 
-const DocsPage = () => {
-  return <h1>Docs</h1>;
-};
+const DocsPage = () => (
+  <Markdown
+    className="docs"
+    children={docs}
+    options={{
+      overrides: {
+        p: {
+          component: "p",
+          props: {
+            className: "d-flex justify-content-center flex-wrap"
+          }
+        }
+      }
+    }}
+  />
+);
 
 export default DocsPage;

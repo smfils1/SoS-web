@@ -1,24 +1,13 @@
-import React, { Component } from "react";
+
+import React from "react";
 import Markdown from "markdown-to-jsx";
-import docs from "../../assets/unity/README.md";
+import raw from "raw.macro";
 import "./DocsPage.css";
 
-class DocsPage extends Component {
-  state = { docs: "Loading" };
-
-  componentDidMount() {
-    fetch(docs)
-      .then(response => response.text())
-      .then(docs => this.setState({ docs }));
-  }
-
-  render() {
-    const { docs } = this.state;
-
-    return (
+const DocsPage = () =>  (
       <Markdown
         className="docs"
-        children={docs}
+        children={raw("../../assets/unity/README.md")}
         options={{
           overrides: {
             p: {
@@ -28,9 +17,9 @@ class DocsPage extends Component {
               }
             }
           }
-        }}
+	}}        
       />
     );
-  }
-}
+  
+
 export default DocsPage;

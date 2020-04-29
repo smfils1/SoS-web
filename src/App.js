@@ -16,7 +16,7 @@ export default function App() {
       <Switch>
         <Route exact path="/" render={HomePage} />
         <Route path="/beta" render={BetaPage} />
-        <Route path="/docs" render={DocsPage} />
+        <Route path="/docs" render={() => <DocsPage />} />
       </Switch>
       <Footer />
     </div>

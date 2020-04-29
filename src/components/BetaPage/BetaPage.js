@@ -1,7 +1,12 @@
 import React from "react";
+import Unity, { UnityContent } from "react-unity-webgl";
+const unityContent = new UnityContent(
+  "build/Build/build.json",
+  "build/Build/UnityLoader.js"
+);
 
 const BetaPage = () => {
-  return <h1>Beta</h1>;
+  return <Unity unityContent={unityContent} />;
 };
 
 export default BetaPage;

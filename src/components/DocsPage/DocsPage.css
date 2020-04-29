@@ -1,11 +1,12 @@
 .docs {
-  padding: 2em;
+  padding: 1em;
   background-color: #e2e2e2;
 }
 
 .docs img {
-  max-width: 100%;
-  height: auto;
+  width:400px;
+  height: 400px;
+overflow:hidden;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -15,7 +16,7 @@
   }
 
   .docs img {
-    max-width: 35%;
+    max-width: 50%;
   }
 }
 /* */

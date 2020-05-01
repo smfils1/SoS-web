@@ -4,9 +4,9 @@
 }
 
 .docs img {
-  width:400px;
+  width: 400px;
   height: 400px;
-overflow:hidden;
+  overflow: hidden;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

@@ -7,7 +7,7 @@ import "./DocsPage.css";
 const DocsPage = () =>  (
       <Markdown
         className="docs"
-        children={raw("../../assets/unity/README.md")}
+        children={raw("../../../public/unity/GDD.md")}
         options={{
           overrides: {
             p: {

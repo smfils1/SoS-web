@@ -1,5 +1,6 @@
 .idea/
 .vscode/
+.codesandbox/
 node_modules/
 .DS_Store
 *.tgz

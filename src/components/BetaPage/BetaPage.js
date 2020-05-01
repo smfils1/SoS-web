@@ -3,8 +3,8 @@ import Unity, { UnityContent } from "react-unity-webgl";
 import "./BetaPage.css"
 
 const unityContent = new UnityContent(
-  "build/Build/build.json",
-  "build/Build/UnityLoader.js"
+  "unity/build/WebGL/WebGL/Build/WebGL.json",
+  "unity/build/WebGL/WebGL/Build/UnityLoader.js"
 );
 
 const BetaPage = () => {

@@ -15,6 +15,7 @@ jobs:
         if: github.event.action == 'update-web'
         run: |
           git clone https://.:${{secrets.GITHUB_TOKEN }}@github.com/${{secrets.GH_USERNAME}}/${{secrets.GAME_REPO}}.git
+          rm -rf public/unity
           mv ${{secrets.GAME_REPO}}/unity public
           rm -rf ${{secrets.GAME_REPO}}
  

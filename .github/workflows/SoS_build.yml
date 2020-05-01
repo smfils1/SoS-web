@@ -14,4 +14,10 @@ jobs:
       - name: Dispatch response to received SoS update
         if: github.event.action == 'update-web'
         run: |
-          echo "Need to pull the build now"
+          git clone https://.:${{secrets.GITHUB_TOKEN }}@github.com/${{secrets.GH_USERNAME}}/${{secrets.GAME_REPO}}.git
+          mv ${{secrets.GAME_REPO}}/unity/WebGL/WebGL public/unity
+          rm -rf ${{secrets.GAME_REPO}}
+ 
+      - uses: mikeal/publish-to-github-action@master
+        env:
+         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -36,7 +36,7 @@ const Hero = () => (
           Survive
         </h1>
         <h4 className="my-4" style={{ fontWeight: "300", fontSize: "1.7em" }}>
-          Beta is now available
+          Beta is available <strong>NOW</strong>!
         </h4>
         <Button
           size="lg"

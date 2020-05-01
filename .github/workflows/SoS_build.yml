@@ -1,0 +1,17 @@
+name: SoS Build Responder
+ 
+on: 
+ [repository_dispatch]
+ 
+jobs:
+  ping-pong:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Event Information
+        run: |
+          echo "Event '${{ github.event.action }}' received from '${{ github.event.client_payload.repository }}'"
+      - name: Dispatch response to received SoS update
+        if: github.event.action == 'update-web'
+        run: |
+          echo "Need to pull the build now"

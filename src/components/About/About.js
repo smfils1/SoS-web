@@ -16,7 +16,7 @@ const About = () => (
                     <p className="lead" style={{ fontSize: "1.5em" }}>Shoot or Survive is an open-source web game of survival. You're either the one shooting or the one running away. The choice is yours. This plug and play FPS web game is a battle between you and your enemies that require accuracy & speed. The ability to attack or avoid enemies with different controls leads to a unique web experience.</p>
                 </div>
             </Col>
-            <Col xs={12} lg={6} className="p-0 d-inline-flex flex-column justify-content-center align-items-center p-0 pr-md-5 pr-lg-5 p-xl-0" >
+            <Col xs={12} lg={6} className="p-0 d-inline-flex flex-column justify-content-center align-items-center p-0 p-md-4 p-lg-4 p-xl-0" >
                 <div className="video embed-responsive embed-responsive-16by9">
                     <iframe title="Game trailer" className="embed-responsive-item" src="https://www.youtube.com/embed/bH1lHCirCGI"  allowFullScreen></iframe>
                 </div>

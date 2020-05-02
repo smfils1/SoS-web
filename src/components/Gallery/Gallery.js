@@ -12,8 +12,9 @@ const Gallery = ({ images }) => {
     />
   ));
   return (
-    <Container fluid className="p-0">
-      <div className=" d-inline-flex flex-wrap justify-content-center text-decoration-underline align-items-stretch w-100">
+    <Container fluid className="p-0 m-0 bg-light">
+      <h2 className="display-4 p-4 text-center">Screenshoots</h2>
+      <div className=" d-flex flex-wrap justify-content-center text-decoration-underline align-items-stretch w-100">
         {imageItems}
       </div>
     </Container>

@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/SoS-web/static/css/main.2d617a61.chunk.css",
-    "main.js": "/SoS-web/static/js/main.40b5c8d2.chunk.js",
-    "main.js.map": "/SoS-web/static/js/main.40b5c8d2.chunk.js.map",
+    "main.css": "/SoS-web/static/css/main.3ef54e48.chunk.css",
+    "main.js": "/SoS-web/static/js/main.27266857.chunk.js",
+    "main.js.map": "/SoS-web/static/js/main.27266857.chunk.js.map",
     "runtime~main.js": "/SoS-web/static/js/runtime~main.8ddf747c.js",
     "runtime~main.js.map": "/SoS-web/static/js/runtime~main.8ddf747c.js.map",
-    "static/js/2.498e5533.chunk.js": "/SoS-web/static/js/2.498e5533.chunk.js",
-    "static/js/2.498e5533.chunk.js.map": "/SoS-web/static/js/2.498e5533.chunk.js.map",
+    "static/js/2.6c0bd9ea.chunk.js": "/SoS-web/static/js/2.6c0bd9ea.chunk.js",
+    "static/js/2.6c0bd9ea.chunk.js.map": "/SoS-web/static/js/2.6c0bd9ea.chunk.js.map",
     "index.html": "/SoS-web/index.html",
-    "precache-manifest.3c487f46af617dc5c2b33f6b9a5245c9.js": "/SoS-web/precache-manifest.3c487f46af617dc5c2b33f6b9a5245c9.js",
+    "precache-manifest.8a790d14c6f9882c6422f7e4b5b8400e.js": "/SoS-web/precache-manifest.8a790d14c6f9882c6422f7e4b5b8400e.js",
     "service-worker.js": "/SoS-web/service-worker.js",
-    "static/css/main.2d617a61.chunk.css.map": "/SoS-web/static/css/main.2d617a61.chunk.css.map",
+    "static/css/main.3ef54e48.chunk.css.map": "/SoS-web/static/css/main.3ef54e48.chunk.css.map",
     "static/media/hero_image.jpg": "/SoS-web/static/media/hero_image.ac531091.jpg",
-    "static/media/sample1.jpg": "/SoS-web/static/media/sample1.239543c8.jpg",
-    "static/media/sample2.jpg": "/SoS-web/static/media/sample2.d5547f56.jpg",
-    "static/media/sample3.jpg": "/SoS-web/static/media/sample3.3be08668.jpg"
+    "static/media/sample1.jpg": "/SoS-web/static/media/sample1.756d1409.jpg",
+    "static/media/sample2.jpg": "/SoS-web/static/media/sample2.94e47ee2.jpg",
+    "static/media/sample3.jpg": "/SoS-web/static/media/sample3.ee66312e.jpg",
+    "static/media/sample4.jpg": "/SoS-web/static/media/sample4.71d232c4.jpg"
   }
 }

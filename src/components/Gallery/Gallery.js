@@ -1,5 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
+import template from "../template";
+
 import "./Gallery.css";
 
 const Gallery = ({ images }) => {
@@ -8,12 +10,12 @@ const Gallery = ({ images }) => {
       src={image}
       key={index}
       className="galleryImage"
-      alt={`sample${index}`}
+      alt={`gameplay screenshoot ${index}`}
     />
   ));
   return (
     <Container fluid className="p-0 m-0 bg-light">
-      <h2 className="display-4 p-4 text-center">Screenshoots</h2>
+      <h2 className="display-4 p-4 text-center">{template.galleryTitle}</h2>
       <div className=" d-flex flex-wrap justify-content-center text-decoration-underline align-items-stretch w-100">
         {imageItems}
       </div>

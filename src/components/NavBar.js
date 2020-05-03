@@ -5,25 +5,24 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { Link } from "react-router-dom";
+import template from "./template";
 
-import logo from "../assets/images/logo_transparent.png";
 
 const NavBar = () => (
   <Navbar variant="dark" bg="dark" expand="md" style={{ fontWeight: "300" }}>
     <Navbar.Brand>
       <Link to="/" className="nav-link p-0 text-white ">
         <Container>
-          <img alt="" src={logo} style={{ width: "4em" }} />{" "}
+          <img alt="" src={template.brandLogo} style={{ width: "4em" }} />{" "}
           <div
             className="ml-auto"
             style={{ fontSize: "1.5em", lineHeight: "80%" }}
           >
-            <Row>
-              <Col className="p-0">AS/WA</Col>
-            </Row>{" "}
-            <Row>
-              <Col className="p-0">LABS</Col>
-            </Row>
+            {template.brandName.split(" ").map((element, index) => (
+              <Row key={index}>
+                <Col className="p-0">{element}</Col>
+              </Row>
+            ))}
           </div>
         </Container>
       </Link>
@@ -34,15 +33,15 @@ const NavBar = () => (
         className="ml-auto text-uppercase"
         style={{ fontSize: "1.5em", lineHeight: "80%" }}
       >
-        <Link to="/" className="nav-link text-white m-3">
-          Home
-        </Link>
-        <Link to="/beta" className="nav-link text-white m-3">
-          Beta
-        </Link>
-        <Link to="/docs" className="nav-link text-white m-3">
-          Docs
-        </Link>
+        {template.navLinks.map((element, index) => (
+          <Link
+            key={index}
+            to={element.link}
+            className="nav-link text-white m-3"
+          >
+            {element.title}
+          </Link>
+        ))}
       </Nav>
     </Navbar.Collapse>
   </Navbar>

@@ -1,16 +1,16 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Jumbotron from "react-bootstrap/Jumbotron";
-import heroImage from "../assets/images/hero_image.jpg";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import template from "./template";
+import { Link } from "react-scroll";
 
 const Hero = () => (
   <Jumbotron
     style={{
       height: "100vh",
-      backgroundImage: `url(${heroImage})`,
+      backgroundImage: `url(${template.heroImage})`,
       backgroundRepeat: "no-reapeat",
       backgroundSize: "cover",
     }}
@@ -40,19 +40,22 @@ const Hero = () => (
         <h4 className="my-4" style={{ fontWeight: "300", fontSize: "1.7em" }}>
           <mark className="bg-light">{template.homeSubtitle}</mark>
         </h4>
-        <Button
-          size="lg"
-          variant="primary"
-          style={{
-            backgroundColor: "rgb(221, 102, 53)",
-            outline: "none",
-            borderWidth: "0px",
-            fontSize: "1.5em",
-          }}
-          className="my-auto "
-        >
-          {template.homeButton}
-        </Button>
+        <Link to="about" smooth={true} duration={600}>
+          <Button
+            variant="light"
+            size="lg"
+            style={{
+              backgroundColor: "rgb(221, 102, 53)",
+              outline: "none",
+              borderWidth: "0px",
+              fontSize: "1.5em",
+              color: "white",
+            }}
+            className="my-auto "
+          >
+            {template.homeButton}
+          </Button>
+        </Link>
       </Col>
     </Row>
   </Jumbotron>

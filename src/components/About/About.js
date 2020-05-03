@@ -6,7 +6,7 @@ import template from "../template";
 import "./About.css";
 
 const About = () => (
-  <Container fluid>
+  <Container name="about" fluid>
     <Row>
       <Col
         xs={12}

@@ -6,6 +6,7 @@ const template = {
     middle: "or",
     bottom: "Survive",
   },
+  heroImage: require("../assets/images/hero_image.jpg"),
   homeSubtitle: "Beta is available NOW",
   navLinks: [
     { title: "Home", link: "/" },

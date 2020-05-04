@@ -2,3 +2,7 @@
 .App {
   font-family: "Roboto", sans-serif;
 }
+
+.bg-dark {
+  background-color: black !important;
+}

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7665ffac2855e900902b84c9ae4822cd",
+    "revision": "05838d8d61669f720bdccdad68e1b806",
     "url": "/SoS-web/index.html"
   },
   {
-    "revision": "cefa44c42f93117846ee",
+    "revision": "72947d407699a8d1d14d",
     "url": "/SoS-web/static/css/main.8997dcfe.chunk.css"
   },
   {
@@ -12,20 +12,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SoS-web/static/js/2.3c874863.chunk.js"
   },
   {
-    "revision": "cefa44c42f93117846ee",
-    "url": "/SoS-web/static/js/main.885da4ca.chunk.js"
+    "revision": "72947d407699a8d1d14d",
+    "url": "/SoS-web/static/js/main.4b7fc727.chunk.js"
   },
   {
     "revision": "f1df144c34fa26d78d7f",
     "url": "/SoS-web/static/js/runtime~main.8ddf747c.js"
   },
   {
-    "revision": "adcec92282bdb8556a01928efa5ff619",
-    "url": "/SoS-web/static/media/FTP.adcec922.png"
+    "revision": "d9b78ad5cade8f978a9fd54d345ebc65",
+    "url": "/SoS-web/static/media/FTP.d9b78ad5.png"
   },
   {
-    "revision": "138b75471b24bb89e57de2811290dcfa",
-    "url": "/SoS-web/static/media/PAP.138b7547.png"
+    "revision": "7c95477406f5f7c20c112313529062ad",
+    "url": "/SoS-web/static/media/PAP.7c954774.png"
   },
   {
     "revision": "ac531091f252a529077b05cf39c3bfc0",

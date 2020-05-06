@@ -8,7 +8,7 @@ import template from "../template";
 const HomePage = () => (
   <div>
     <Hero />
-    {/* <Features /> */}
+   <Features />
     <About />
     <Gallery images={template.galleryImages} />
   </div>

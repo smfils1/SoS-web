@@ -9,7 +9,7 @@ import template from "./template";
 
 
 const NavBar = () => (
-  <Navbar fixed="top" variant="dark" bg="dark" expand="md" style={{ fontWeight: "300" }}>
+  <Navbar variant="dark" bg="dark" expand="md" style={{ fontWeight: "300" }}>
     <Navbar.Brand>
       <Link to="/" className="nav-link p-0 text-white ">
         <Container>

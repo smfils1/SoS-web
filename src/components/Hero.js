@@ -9,7 +9,7 @@ import { Link } from "react-scroll";
 const Hero = () => (
   <Jumbotron
     style={{
-      height: "105vh",
+      height: "95vh",
       backgroundImage: `url(${template.heroImage})`,
       backgroundRepeat: "no-reapeat",
       backgroundSize: "cover",

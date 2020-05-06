@@ -14,8 +14,8 @@ export default function App() {
     <div className="App">
       <NavBar />
       <Switch>
-        <Route exact path="/" render={HomePage} />
-        <Route path="/beta" render={BetaPage} />
+        <Route exact path="/" render={() => <HomePage />} />
+        <Route path="/beta" render={() => <BetaPage />} />
         <Route path="/docs" render={() => <DocsPage />} />
       </Switch>
       <Footer />

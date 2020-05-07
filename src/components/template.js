@@ -20,10 +20,10 @@ const template = {
   homeVideo: "https://www.youtube.com/embed/bH1lHCirCGI",
   galleryTitle: "Screenshots",
   galleryImages: [
-    require("../assets/images/sample1.jpg"),
+    require("../assets/images/gp1.png"),
     require("../assets/images/sample2.jpg"),
     require("../assets/images/sample3.jpg"),
-    require("../assets/images/sample4.jpg"),
+    require("../assets/images/gp4.png"),
   ],
   githubLink: "https://github.com/smfils1/SoS",
 };

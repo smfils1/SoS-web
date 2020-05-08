@@ -19,4 +19,10 @@
     max-width: 50%;
   }
 }
+
+@media only screen and (min-width: 992px) {
+  .docs {
+    padding: 8em;
+  }
+}
 /* */

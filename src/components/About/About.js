@@ -2,6 +2,8 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import Fade from "react-reveal/Fade";
+
 import template from "../template";
 import "./About.css";
 
@@ -16,7 +18,7 @@ const About = () => (
         <div className=" w-75">
           <h2 className="mb-4 display-4">{template.aboutTitle}</h2>
           <p className="lead" style={{ fontSize: "1.5em" }}>
-            {template.aboutContent}
+            <Fade cascade> {template.aboutContent} </Fade>
           </p>
         </div>
       </Col>

@@ -1,14 +1,14 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import Jumbotron from "react-bootstrap/Jumbotron";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import template from "./template";
 import { Link } from "react-scroll";
-import { Parallax, Background } from "react-parallax";
+import { Parallax } from "react-parallax";
+import Slide from "react-reveal/Slide";
 
 const Hero = () => (
-  <Parallax bgImage={template.heroImage} bgImageAlt="the cat" strength={500} >
+  <Parallax bgImage={template.heroImage} bgImageAlt="the cat" strength={500}>
     <div
       style={{
         height: "95vh",
@@ -39,10 +39,16 @@ const Hero = () => (
               </h1>
             );
           })}
-
-          <h4 className="my-4" style={{ fontWeight: "300", fontSize: "1.7em" }}>
-            <mark className="bg-dark text-white">{template.homeSubtitle}</mark>
-          </h4>
+          <Slide right>
+            <h4
+              className="my-4"
+              style={{ fontWeight: "300", fontSize: "1.7em" }}
+            >
+              <mark className="bg-dark text-white">
+                {template.homeSubtitle}
+              </mark>
+            </h4>{" "}
+          </Slide>
           <Link to="about" smooth={true} duration={600}>
             <Button
               variant="light"

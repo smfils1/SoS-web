@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
+import Fade from "react-reveal/Fade";
 import template from "../template";
 
 import "./Gallery.css";
@@ -17,7 +18,7 @@ const Gallery = ({ images }) => {
     <Container fluid className="p-0 m-0 bg-light">
       <h2 className="display-4 p-4 text-center">{template.galleryTitle}</h2>
       <div className=" d-flex flex-wrap justify-content-center text-decoration-underline align-items-stretch w-100">
-        {imageItems}
+        <Fade cascade>{imageItems}</Fade>
       </div>
     </Container>
   );

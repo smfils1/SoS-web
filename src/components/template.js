@@ -17,7 +17,7 @@ const template = {
   aboutTitle: "What is SoS?",
   aboutContent:
     "Shoot or Survive is an open-source web game of survival. You're either the one shooting or the one running away. The choice is yours. This plug and play FPS web game is a battle between you and your enemies that require accuracy & speed. The ability to attack or avoid enemies with different controls leads to a unique web experience.",
-  homeVideo: "https://www.youtube.com/embed/bH1lHCirCGI",
+  homeVideo: "https://www.youtube.com/embed/5rKN7FuBIOA",
   galleryTitle: "Screenshots",
   galleryImages: [
     require("../assets/images/sm_gp6.jpg"),
